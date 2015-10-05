@@ -1,0 +1,92 @@
+<!-- 
+by Taewoo Kim 
+Program #2
+Created 9/19/2015
+Program to find the centroid of 2 - 5 coordinates given
+their geographic locations -->
+
+<!DOCTYPE html>
+
+<html>
+<head>
+<!-- Link to css -->
+<link rel="stylesheet" type="text/css" href="style.css"></a>
+
+</head>
+
+<body>
+
+<h3>Centroid locator<h3>
+
+<h2>
+	<div class="square">
+	<div class="rectangle">
+
+			
+			<div id="wrapper">
+			<div id="navMenu">
+			
+			<ul> 
+			<li><a href="#" id="file" class="file">File</a>
+			
+			<h5><ul>
+			<li><a href="#" class="xy">x, y</a></li>
+			<li><a href="#" class="longlat">Longitude</a></li>
+			<!-- <li><a href="#" class="address">Address</a></li>	 -->
+			</ul>
+			</h5>
+			
+			</li>			
+			</ul>
+			
+			<ul> 
+			<li><a href="#" id="help" class="help">Help</a>
+			
+			<h5>
+			<ul>
+			<li><a href="#" class="helpxy">x, y</a></li>
+			<li><a href="#" class="helplonglat">Longitude</a></li>
+			<!-- <li><a href="#" class="helpaddress">Address</a></li> -->
+			</ul>
+			</h5>
+			
+			</li>			
+			</ul>
+			
+			</div>
+			</div>
+			
+	</div>
+
+			<p>Gimme more than one address!</p>
+			
+			<input id="address_one" class="textbox" type="text" name="address1" placeholder="Address 1">
+			<br>
+			<br>
+			<input id="address_two" class="textbox" type="text" name="address2" placeholder="Address 2">
+			<br>
+			<br>
+			<input id="address_three" class="textbox" type="text" name="address3" placeholder="Address 3">
+			<br>
+			<br>
+			<input id="address_four" class="textbox" type="text" name="address4" placeholder="Address 4">
+			<br>
+			<br>
+			<input id="address_five"class="textbox" type="text" name="address5" placeholder="Address 5">
+			<br>
+			<br>
+			<input id="money" class="button" type="submit" value="Gimme the money!">
+			
+	</div>
+</h2>
+
+<h4> Centroid coordinates: <h4>
+<h1></h1>
+
+<!-- jQuery library and JavaScript sources links -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="centroid.js"></script>
+
+</body>
+
+</html>

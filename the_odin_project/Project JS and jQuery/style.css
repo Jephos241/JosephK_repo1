@@ -1,0 +1,30 @@
+h1 {
+	font-size: 20;
+	font-family: Times New Roman;
+	color: white;
+	text-align: center;
+	background-color: black;
+}
+
+h2 {
+	display: table;
+	margin: auto;
+	vertical-align: middle;
+}
+
+.square {
+	width: 3vw;
+	height: 3vw;
+	display: inline-block;
+	background-color: #FFFFFF;
+	margin: 0px;
+	outline: 1px solid;
+	float: left;
+	float: up;
+}
+
+.wrapper {
+	text-align: center;
+	margin: 0px 0px 10px 0px;
+}
+
